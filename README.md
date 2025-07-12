@@ -35,7 +35,7 @@ A minimal, modern TypeScript boilerplate with support for Jest, TDD workflow, an
 
 1. Clone this repository: `git clone https://github.com/xlatios1/typescript-boilerplate.git`
 2. Install dependencies: `npm ci`
-3. Checkout new branch: `git switch -b <name>`
+3. Checkout new branch: `git checkout -b <name>`
 
 ### 🚀 Available Scripts
 
