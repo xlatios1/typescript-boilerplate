@@ -66,3 +66,7 @@ npm run dev:watch
 ```
 
 ## ALL THE BEST!
+
+## Contributors
+
+- Yi Jun
