@@ -1,0 +1,30 @@
+{
+	"name": "typescript-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.ts",
+	"contributors": [
+		"Woon Yi Jun"
+	],
+	"scripts": {
+		"dev": "ts-node src/index.ts",
+		"dev:watch": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ts-node": "^10.9.2"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"jest": "^29.7.0",
+		"nodemon": "^3.1.10",
+		"ts-jest": "^29.2.4",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.5.4"
+	}
+}

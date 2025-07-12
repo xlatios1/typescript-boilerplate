@@ -1,0 +1,49 @@
+{
+	"tasks": [
+		{
+			"label": "run",
+			"type": "shell",
+			"command": "npm run dev",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "run watch",
+			"type": "shell",
+			"command": "npm run dev:watch",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "run test",
+			"type": "shell",
+			"command": "npm run test",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "run test:watch",
+			"type": "shell",
+			"command": "npm run test:watch",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "run test:coverage",
+			"type": "shell",
+			"command": "npm run test:watch",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
